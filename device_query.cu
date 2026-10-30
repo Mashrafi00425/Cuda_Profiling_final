@@ -46,8 +46,6 @@ int main() {
                prop.maxThreadsDim[0], prop.maxThreadsDim[1], prop.maxThreadsDim[2]);
         printf("Maximum grid dimensions: %d x %d x %d\n",
                prop.maxGridSize[0], prop.maxGridSize[1], prop.maxGridSize[2]);
-        printf("GPU clock rate: %.0f MHz\n", prop.clockRate / 1000.0);
-        printf("Memory clock rate: %.0f MHz\n", prop.memoryClockRate / 1000.0);
         printf("Memory bus width: %d bits\n", prop.memoryBusWidth);
     }
     return EXIT_SUCCESS;
