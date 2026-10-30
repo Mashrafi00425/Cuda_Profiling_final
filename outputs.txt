@@ -1,0 +1,12 @@
+CUDA Lab 2 - Profiling Outputs
+
+This file will be filled with Jetson results by running:
+    bash run_lab2.sh
+
+The script capturs the device inventory, vector_add CUDA-event timing,
+stride-1/stride-32 timings, compiler ptxas lines a tegrastats sample,
+the two Nsight Systems tables, and per-stride Nsight Compute attempts.
+If nsight compute is unsupproted, it record the reason and tries nvprof.
+
+The two required explanatory sentences are appendd automatically
+at the end once the script finishes.
